@@ -264,7 +264,7 @@ def generate_build_info(args):
     print(f"ro.product.locale={config['ProductLocales'][0]}")
   print(f"ro.wifi.channels={' '.join(config['ProductDefaultWifiChannels'])}")
 
-  print(f"ro.yaap.device={config['YaapDevice']}")
+  print(f"ro.maxx.device={config['YaapDevice']}")
 
   print(f"# Do not try to parse description or thumbprint")
   print(f"ro.build.description?={config['BuildDesc']}")
